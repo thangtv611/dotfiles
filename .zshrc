@@ -99,5 +99,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 #
-source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-alias config='/usr/bin/git --git-dir=/home/thangtv/.cfg/ --work-tree=/home/thangtv'
+alias du='/usr/bin/git --git-dir=/home/thangtv/.cfg/ --work-tree=/home/thangtv'
+alias dm='/usr/bin/git --git-dir=/Users/vietthangtran/.cfg/ --work-tree=/Users/vietthangtran'
