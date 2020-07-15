@@ -101,3 +101,8 @@ source $ZSH/oh-my-zsh.sh
 #
 alias du='/usr/bin/git --git-dir=/home/thangtv/.cfg/ --work-tree=/home/thangtv'
 alias dm='/usr/bin/git --git-dir=/Users/vietthangtran/.cfg/ --work-tree=/Users/vietthangtran'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
