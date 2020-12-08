@@ -9,7 +9,12 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+## ZSH_THEME="robbyrussell"
+## ZSH_THEME="aussiegeek"
+##ZSH_THEME="pygmalion"
+##ZSH_THEME="af-magic"
+## ZSH_THEME="dpoggi"
+ZSH_THEME="dracula"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,3 +114,14 @@ export NVM_DIR="$HOME/.nvm"
 
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+export ANDROID_HOME="/usr/lib/android-sdk"
+
+alias gparent='/usr/bin/git show-branch \
+| sed "s/].*//" \
+| grep "\*" \
+| grep -v "$(git rev-parse --abbrev-ref HEAD)" \
+| head -n1 \
+| sed "s/^.*\[//"
+'
+
