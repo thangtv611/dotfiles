@@ -1,0 +1,1 @@
+cp /Users/$(whoami)/Library/Application\ Support/Code/User/settings.json ../.vscode
